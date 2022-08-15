@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Subnetting</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">Networking Application </div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+                <li><a href="/">Home</a></li>
+                <li class="services">
+                    <a href="./networking.html">Networking</a>
+                </li>
+                <li class="services">
+                    <a href="/">Subnetting</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="/subnetting.html">Learn Subnetting</a></li>
+                        <li><a href="/">Subnet Your Network</a></li>
+                    </ul>
+                </li>
+                <li class="services">
+                    <a href="/">Cryptography</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="./cryptography.html">Learn Cryptography </a></li>
+                        <li><a href="/">Start Cryptography</a></li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./about.html">About</a></li>
+            </div>
+        </ul>
+    </nav>
+    <!-- Navbar Ends -->
+    <!-- Navbar Ends -->
+
+    <div class="subnet-image">
+        <img src="./img/img1.jpg" alt="">
+    </div>
+    <h1 class="subnet-head">Cryptography</h1>
+    <h2 class="subnet-heading">Let's understand Cryptography </h2>
+    <p class="subnet-para">
+        Cryptography is an important aspect when we deal with network security. ‘Crypto’ means secret or hidden.
+        Cryptography is the science of secret writing with the intention of keeping the data secret. Cryptanalysis, on
+        the other hand, is the science or sometimes the art of breaking cryptosystems. Both terms are a subset of what
+        is called <b>Cryptology</b>.<br><br>
+        <b>Classification:</b> The flowchart depicts that cryptology is only one of the factors involved in securing
+        networks.
+        Cryptology refers to the study of codes, which involves both writing (cryptography) and solving (cryptanalysis)
+        them. Below is a classification of the crypto terminologies and their various types.<br><br>
+        <!-- image 1 will be here -->
+        <b> Cryptography</b><br><br>
+
+        Cryptography is classified into symmetric cryptography and asymmetric cryptography. Below are the description of
+        these types.<br><br>
+
+        <b>1. Symmetric key cryptography</b> – It involves the usage of one secret key along with encryption and
+        decryption
+        algorithms which help in securing the contents of the message. The strength of symmetric key cryptography
+        depends upon the number of key bits. It is relatively faster than asymmetric key cryptography. There arises a
+        key distribution problem as the key has to be transferred from the sender to the receiver through a secure
+        channel.<br><br>
+        <!-- image 2 will be here -->
+        <b>2. Asymmetric key cryptography</b> - It is also known as public-key cryptography because it involves the
+        usage of a public key along with the secret key. It solves the problem of key distribution as both parties use
+        different
+        keys for encryption/decryption. It is not feasible to use for decrypting bulk messages as it is very slow
+        compared to symmetric key cryptography.<br><br>
+        <!-- image 3 will be here -->
+        <b> 3. Hashing:</b> It involves taking the plain text and converting it to a hash value of fixed size by a hash
+        function. This process ensures the integrity of the message as the hash value on both, the sender’s and
+        receiver’s sides should match if the message is unaltered.<br><br>
+        <!-- image 3 will be here -->
+
+
+        There are many techniques for conversion of plain text to cipher text some of the are: <br><br>
+        1. Hill Cipher<br>
+        2. Ceaser cipher<br>
+
+
+
+        <br><br>Lets understand how we can conver a plain text into cipher text using <b>Hill Cipher</b>
+    </p>
+
+    <h1 class="subnet-head">Hill Cipher</h1>
+    <p class="subnet-para">
+        Hill cipher is a polygraphic substitution cipher based on linear algebra.Each letter is represented by a number
+        modulo 26. Often the simple scheme A = 0, B = 1, …, Z = 25 is used, but this is not an essential feature of the
+        cipher. To encrypt a message, each block of n letters (considered as an n-component vector) is multiplied by an
+        invertible n × n matrix, against modulus 26. To decrypt the message, each block is multiplied by the inverse of
+        the matrix used for encryption.<br>
+        The matrix used for encryption is the cipher key, and it should be chosen randomly from the set of invertible n
+        × n matrices (modulo 26).<br><br>
+        <b>Example 1 </b><br>
+        Input : Plaintext: ACT<br>
+        Key: GYBNQKURP<br>
+        Output : Ciphertext: POH<br><br>
+
+
+        <b>Example 2 </b><br>
+        Input : Plaintext: GFG<br>
+        Key: HILLMAGIC <br>
+        Output : Ciphertext: SWK<br>
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3>Networking<span>Application</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                ·
+                <a href="#">Blog</a>
+                .
+                <a href="#">About</a>
+                ·
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Networking Application &copy; 2022</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Govindpuram, Ghaziabad</span> Uttar Pardesh, India</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 XXXX XXXX XX</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">contact@networkingapplication.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Networking application provide solutions for subnettig and cryptography .
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+    background-color: #a1acdd;
+    color: #000000;
+}
+
+.sub {
+    color: #12d8df;
+}
+
+.addr {
+    width: 30px;
+    height: 20px;
+    color: blue;
+    display: inline;
+}
+
+.result {
+    border-bottom: 1px solid rgb(0, 174, 255);
+    padding: 6px;
+    color: aliceblue
+}
+
+.result:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.result .label {
+    display: inline-block;
+    width: 200px;
+    background: red;
+    padding: 6px;
+}
+
+button {
+    background: red;
+    color: #FFF;
+    width: 100px;
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #fff;
+    color: rgb(0, 217, 255);
+}
+
+#resIP,
+#resBinIP,
+#resMask,
+#resClass,
+#resNet,
+#resBC,
+#resRange,
+#resBinMask,
+#resBinNet,
+#resBinBC {
+    color: #000000;
+}
+
+#resIP:hover,
+#resBinIP:hover,
+#resMask:hover,
+#resClass:hover,
+#resNet:hover,
+#resBC:hover,
+#resRange:hover,
+#resBinMask:hover,
+#resBinNet:hover,
+#resBinBC:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
